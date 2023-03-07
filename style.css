@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+body
+{
+    font-family: sans-serif;
+}
+
+#contactenquiryform 
+{
+    border-top:#F0F0F0 2px solid;
+    background:#FAF8F8;
+    padding:10px;
+}
+#contactenquiryform div
+{
+    margin-bottom: 15px;
+}
+#contactenquiryform div label
+{
+    margin-left: 5px;
+}
+.ip-boxs
+{
+    font-size: 16px;
+    font-style: italic;
+    padding:10px; 
+    border:#050505 1px solid; 
+    border-radius:0px; 
+    width: 50%;
+    margin: 0px 0px 16px;
+}
+.ip-msgss
+{
+    font-size: 16px;
+    font-style: italic;
+    padding:10px; 
+    border:#050505 1px solid; 
+    border-radius:0px; 
+    width: 50%;
+    margin: 0px 0px 16px;
+}
+
+.btnsct
+{
+    background-color:#180c06;
+    border:0;
+    padding:10px 40px;
+    color:#FFF;
+    border:#F0F0F0 1px solid; 
+    border-radius:0px;
+}
+
+
+
