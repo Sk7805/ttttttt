@@ -10,7 +10,7 @@ jQuery(document).ready(function(e) {
 				if(valid) {
 					$("#btnsub").attr("disabled", true);
 					jQuery.ajax({
-					url: "https://dpstaging.in/Jobin/book-a-venue/mail/requestform.php",
+					url: "requestform.php",
 					type: "POST",
 					data:  new FormData(this),
 					contentType: false,
@@ -19,7 +19,7 @@ jQuery(document).ready(function(e) {
 					success: function(data){
                         $("#mail-status").html(data);
 						document.getElementById("contactenquiryform").reset();
-						window.location.href="https://dpstaging.in/Jobin/book-a-venue/images/thankyou.jpg";
+						window.location.href="thankyou.jpg";
 						/*$('#loader-icon').hide();*/
 					},
 					error: function(){} 
