@@ -10,7 +10,7 @@ jQuery(document).ready(function(e) {
 				if(valid) {
 					$("#btnsub").attr("disabled", true);
 					jQuery.ajax({
-					url: "requestform.php",
+					url: "https://github.com/Sk7805/ttttttt/blob/f2d8fc800431f03c27b3dbdfa00cae764ebd749c/requestform.php",
 					type: "POST",
 					data:  new FormData(this),
 					contentType: false,
@@ -19,7 +19,7 @@ jQuery(document).ready(function(e) {
 					success: function(data){
                         $("#mail-status").html(data);
 						document.getElementById("contactenquiryform").reset();
-						window.location.href="thankyou.jpg";
+						window.location.href="https://github.com/Sk7805/ttttttt/blob/f2d8fc800431f03c27b3dbdfa00cae764ebd749c/thankyou.jpg";
 						/*$('#loader-icon').hide();*/
 					},
 					error: function(){} 
